@@ -9,4 +9,4 @@
 * 8:00 Raspberry Pi problems @Jonas @Dozent
 * 9:00 Research Python Computer Vision
 * 10:30 MQTT/NodeRed presentation
-* network configuration
+* 11:30 network configuration

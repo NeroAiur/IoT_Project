@@ -21,11 +21,14 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 >> * 100-119 Orange
 >> * 120-139 Blau
 >> * 140-159 Violett
+>>
 > [x] Vereinbarung welcher Bereich IP-Adressen automatisch vergibt
 >> * 20-99
+>>
 > [x] Vereinbarung welcher Bereich für reservierte Geräte
 >> * 1-19
 >> * 1 - WappyBoi
+>>
 > [x] Netzwerkmeister = Marc
 
 # Ziel 2: Vorhandene Geräte mit MQTT steuern
