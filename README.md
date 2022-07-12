@@ -46,11 +46,11 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
 
 * Bestandteile:
-> [ ] Grafana\
-> [ ] Influxdb\
-> [ ] Mosquitto\
-> [ ] NodeRed\
-> [ ] Portainer-CE
+> [x] Grafana\
+> [x] Influxdb\
+> [x] Mosquitto\
+> [x] NodeRed\
+> [x] Portainer-CE
 
 * Ports:
 > 3000 - Grafana

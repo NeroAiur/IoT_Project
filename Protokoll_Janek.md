@@ -5,3 +5,7 @@
 
 # 12.07.2022
 * 8:00 making the camera work standalone
+* 11:15 camera NOT working, making up new plan
+* 11:30 new plan
+> light sensor
+> if light is off, switch LED on

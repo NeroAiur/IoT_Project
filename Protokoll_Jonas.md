@@ -18,3 +18,4 @@
 > problem seemingly unfixable by us
 > instructor working on it
 * 10:05 Testing Webinterfaces of LEDs and power strip
+* 11:30 overtaking Raspberry Pi, configuring IOTStack
