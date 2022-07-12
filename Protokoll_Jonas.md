@@ -20,4 +20,6 @@
 * 10:05 Testing Webinterfaces of LEDs and power strip
 * 11:30 overtaking Raspberry Pi, configuring IOTStack
 * 12:00 first real tries with ESP and sensor @Janek
-* 13:40 tamota installation @Janek
+* 13:40 tasmota installation @Janek @Sebastian @Theodor @Hanschmidt
+* 14:15 tasmota configuration @Janek @Sebastian @Hanschmidt
+> worked only with template Sonoff Basic (1)

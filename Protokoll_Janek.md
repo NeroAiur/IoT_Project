@@ -11,4 +11,6 @@
 > if light is off, switch LED on
 * 12:00 first real tries with ESP and sensor @Jonas
 * 12:45 basic setup ESP 8266 @Sebastian
-* 13:40 tamota installation @Jonas
+* 13:40 tasmota installation @Jonas @Sebastian @Theodor @Hanschmidt
+* 14:15 tasmota configuration @Jonas @Sebastian @Hanschmidt
+> worked only with template Sonoff Basic (1)

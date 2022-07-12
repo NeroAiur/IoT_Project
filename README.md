@@ -45,6 +45,12 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 * [x] Zeitzonen usw anpassen
 * [x] Update/Aktualisierung
 
+## Probleme
+* Raspberry Pi war jedes Mal nachdem man ihm eine statische IP (bei folgendem Reset)
+> seemingly random, weil es immer wieder mal funktioniert hatte\
+> bei Installation des IOTStacks kam der Fehler dann wieder\
+> Lösung durch Hr. Dr. Lorz
+
 # Ziel 4: IOTStack installieren und einrichten
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
 
@@ -64,3 +70,19 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 > 9000 - Portainer
 >> username: \
 >> password: \
+
+## Probleme
+
+# Ziel 5: IoT-Grundlagen präsentieren und erklären können
+* [Link zur Präsentation](https://docs.google.com/presentation/d/1OA43oWYI0IdfKxGPRfhTF-xS5oXf_kllf4pKpVWIIzA/edit?usp=sharing)
+
+# Ziel 6: Ein eigenes IoT-Device bauen
+
+## Ziel 6a: Einfarbiges Tasmota-SmartLight mit ESP8266
+* Breadboard aufbau für LED-Test:
+
+* Anleitung bringt uns gar nichts, weil ausschließlich für Linux
+
+# Lessons Learned
+* Anleitung war für uns basically useless, weil es für Linux gemacht war.
+> nach nichts arbeiten, was man nicht selbst gemacht/geprüft/durchgegangen ist
