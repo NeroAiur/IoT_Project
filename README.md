@@ -31,7 +31,8 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 > Marc
 
 # Ziel 2: Vorhandene Geräte mit MQTT steuern
-
+* Durch Jonas realisiert.
+* Ansprechen des SmartOutlets über MQTT
 
 # Ziel 3: Raspberry Pi einrichten
 * [x] Installieren von Raspberry Pi OS Lite (32-bit)
@@ -65,6 +66,10 @@ Aufgrund der Ausfälle unseres Raspberry Pi 5s haben wir die Entscheidung getrof
 > Password: pi
 
 * Eine Partition, alles dort drin
+
+* Installtion ohne Docker.
+> Mosquitto Port: 1883\
+> NodeRed Port: 1880\
 
 # Ziel 4: IOTStack installieren und einrichten
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
