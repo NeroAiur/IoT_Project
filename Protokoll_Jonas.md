@@ -26,3 +26,4 @@
 
 # 13.07.2022
 * 10:40 integrating sensor to control the LED @Marc @Janek
+* 11:30 due to reoccuring error with Rapsi, workaround with debian laptop @Marc

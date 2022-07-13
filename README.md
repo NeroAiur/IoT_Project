@@ -16,20 +16,19 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 
 # Ziel 1: WLAN einrichten + Dinge ausprobieren
 * [x] WLAN einrichten
-* Dokumentieren:
-> [x] Vereinbarung zur Vergabe von IP-Adressen - welche Gruppe benutzt welche Ranges?
->> * 100-119 Orange
->> * 120-139 Blau
->> * 140-159 Violett
->>
-> [x] Vereinbarung welcher Bereich IP-Adressen automatisch vergibt
->> * 20-99
->>
-> [x] Vereinbarung welcher Bereich für reservierte Geräte
->> * 1-19
->> * 1 - WappyBoi
->>
-> [x] Netzwerkmeister = Marc
+
+## Dokumentieren:
+* [x] Vereinbarung zur Vergabe von IP-Adressen - welche Gruppe benutzt welche Ranges?
+> 100-119 Orange\
+> 120-139 Blau\
+> 140-159 Violett
+* [x] Vereinbarung welcher Bereich IP-Adressen automatisch vergibt
+> 20-99
+* [x] Vereinbarung welcher Bereich für reservierte Geräte
+> 1-19\
+> 1 - WappyBoi
+* [x] Netzwerkmeister
+> Marc
 
 # Ziel 2: Vorhandene Geräte mit MQTT steuern
 
@@ -51,6 +50,21 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 > bei Installation des IOTStacks kam der Fehler dann wieder\
 > Lösung durch Hr. Dr. Lorz
 * später wieder Fehlschlag des Raspberry Pi
+* Durch Fehlschlag bei allen Gruppen an verschiedenen Punkten wurde eine Ersatzlösung durchgplant zur Durchführung gestartet (weiter in 3a)
+
+# Ziel 3a: Ausweich auf Debian-Laptop
+Aufgrund der Ausfälle unseres Raspberry Pi 5s haben wir die Entscheidung getroffen, dass wir diesen umgehen und einen Laptop frisch auf Debian booten und diesen als Pseudo-Pi zu nutzen
+
+* Bestehenden Laptop plätten und neu booten
+> Debian Version - 11.04\
+> BootStick Erstellung per [Rufus](https://rufus.ie/de/)
+
+* Daten:
+> Real Name: lila\
+> Username: pi\
+> Password: pi
+
+* Eine Partition, alles dort drin
 
 # Ziel 4: IOTStack installieren und einrichten
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
