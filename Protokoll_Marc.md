@@ -10,3 +10,6 @@
 * 9:00 Research Python Computer Vision
 * 10:30 MQTT/NodeRed presentation
 * 11:30 network configuration
+
+# 13.07.2022
+* 10:40 integrating sensor to control the LED @Jonas @Janek

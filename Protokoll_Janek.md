@@ -14,3 +14,7 @@
 * 13:40 tasmota installation @Jonas @Sebastian @Theodor @Hanschmidt
 * 14:15 tasmota configuration @Jonas @Sebastian @Hanschmidt
 > worked only with template Sonoff Basic (1)
+
+# 13.07.2022
+* 10:30 tasmota configuration and tests @Hanschmidt
+* 10:40 integrating sensor to control the LED @Jonas @Marc

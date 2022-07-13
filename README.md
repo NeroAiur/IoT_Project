@@ -50,6 +50,7 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 > seemingly random, weil es immer wieder mal funktioniert hatte\
 > bei Installation des IOTStacks kam der Fehler dann wieder\
 > Lösung durch Hr. Dr. Lorz
+* später wieder Fehlschlag des Raspberry Pi
 
 # Ziel 4: IOTStack installieren und einrichten
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
@@ -75,14 +76,54 @@ Nach Abschluss dieses einwöchigen Praktikums sind Sie in der Lage:
 
 # Ziel 5: IoT-Grundlagen präsentieren und erklären können
 * [Link zur Präsentation](https://docs.google.com/presentation/d/1OA43oWYI0IdfKxGPRfhTF-xS5oXf_kllf4pKpVWIIzA/edit?usp=sharing)
+> Vortrag ausgearbeitet von Sebastian\
+> Vortrag gehalten von Sebastian
 
 # Ziel 6: Ein eigenes IoT-Device bauen
+**Stimmen Sie sich im Team ab, welche Aufgabe Sie lösen wollen. Falls Sie genügend Zeit zur Verfügung haben können Sie mehrere Geräte bauen bzw. die Aufgabenstellung in Abstimmung mit den Betreuern verändern** Die Aufgabe 6a kennen Sie vielleicht schon aus den ZQs der letzten Jahre. Sie erfordert (ein klein wenig) mehr Aufwand beim Dimensionieren und Umsetzen einer Schaltung zum Anschluss einer einfachen einfarbigen Lichterkette. 6b ist bezüglich der Hardware sehr einfach, erfordert aber eine selbstständigerere Einarbeitung. Bei 6c können Sie Ihrer Kreativität freien Lauf lassen (soweit wir die dafür notwendige Hardware da haben).
 
 ## Ziel 6a: Einfarbiges Tasmota-SmartLight mit ESP8266
-* Breadboard aufbau für LED-Test:
+* Breadboard aufbau für LED-Test:\
+![Breadboard](assets/docs_images/Tasmota_Aufbau.jpeg)
 
-* Anleitung bringt uns gar nichts, weil ausschließlich für Linux
+* Anfängliche Probleme, LED leuchtete nur bei direkter Stomzuvor über Anschlüsse "3V3"
+> Tasmota war auf ESP8266 nicht installiert
 
-# Lessons Learned
+* Installation von Tasmota nach Anleitung
+> Anleitung auf Linux ausgelegt, kein Schritt funktionierte für uns
+
+* Umgehungsvariante auf Software "Tasmotizer" @Theodor
+> ESP8266 wurde nicht erkannt, weil kein Treiber installiert
+
+* Installation Treiber
+> keine automatische Suche der Treiber möglich, manuelle installation notwendig
+
+* Installation über Tasmotizer erfolgreich
+* Konfiguration
+> Template laut Anleitung funktionierte nicht, gewähltes Template:
+
+* LED-Steuerung über "LED" oder "LED_i" war nicht möglich
+> anderes Profil notwendig:
+
+## Lessons Learned
 * Anleitung war für uns basically useless, weil es für Linux gemacht war.
-> nach nichts arbeiten, was man nicht selbst gemacht/geprüft/durchgegangen ist
+> nach nichts arbeiten, was man nicht selbst gemacht/geprüft/durchgegangen ist.
+
+* Murphys Gesetze sind wahr.
+* Arbeitsaufteilung war an manchen Stellen leider nicht so gut
+> lag primär an der andauernden Fehlschläge und Sackgassen.
+
+## Ziel 6b: WLED-SmartLight mit mehrfarbigen LEDs
+Machen Sie sich selbstständig mit dem Projekt [WLED](https://kno.wled.ge/basics/gettings-started/) vertraut und steuern Sie mit einem ESP32 oder ESP8266 einen mehrfarbigen LED-Streifen an. Beachten Sie die Strombegrenzung des Netzteils, und stimmen Sie sich vor der Inbetriebnahme mit den Betreuern ab bzw. bitten Sie diese um Unterstützung wenn Sie nicht weiterkommen.
+
+## Ziel 6c: Einbindung weiterer Sensoren oder Aktoren
+Stimmen Sie sich mit den Betreuern ab, welche weiteren Sensoren oder Aktoren (z.B. Schalter, Feuchtigkeits- oder Lichtsensoren, Servos, ...) sie per MQTT abfragen bzw. steuern wollen. Unterbreiten Sie Lösungsvorschläge, wie diese z.B. mit Tasmota angeschlossen werden können.
+
+# Ziel 7: Nutzung mit NodeRed und MQTT
+Machen Sie sich mit NodeRed und MQTT vertraut, finden SIe passende Internetquellen und erstellen Sie teamübergreifend einen kurzen Vortrag (ca. 5-10 Minuten) mit dem Sie eine Einführung in MQTT geben können.
+> Vortrag ausgearbeitet von Marc, Florian und Nils\
+> Vortrag gehalten von Nils\
+> beinhält eine Grundsatzerklärung von MQTT, NodeRed und einer kleinen Beispieldarstellung von NodeRed anhand eines CO2 Sensors
+
+# Ziel 8: Abschlusspräsentation
+Stellen Sie Ihre Ergebnisse und Lernerfolge in einer Abschlusspräsentation vor
