@@ -71,8 +71,6 @@ Aufgrund der Ausfälle unseres Raspberry Pi 5s haben wir die Entscheidung getrof
 > Mosquitto Port: 1883\
 > NodeRed Port: 1880\
 
-* Fehlende Zeit aufgrund von Problemen mit Pis usw sorgt dafür, dass wir nie wirklich dazu kamen sinnvoll an einer Aufgabe zu arbeiten, wir haben halt gut 12-16 Stunden weniger zur Verfügung gehabt aufgrund dieser Sachen.
-
 # Ziel 4: IOTStack installieren und einrichten
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
 
@@ -148,3 +146,32 @@ Machen Sie sich mit NodeRed und MQTT vertraut, finden SIe passende Internetquell
 
 # Ziel 8: Abschlusspräsentation
 Stellen Sie Ihre Ergebnisse und Lernerfolge in einer Abschlusspräsentation vor
+
+# Eigenes Ziel: Lichtsensor - automatisches Anschalten einer Lampe bei Dunkelheit
+* Bauteile:
+> Breadboard\
+> ESP8266\
+> Lichtsensor\
+> 100Ω Wiederstand\
+> LED\
+> 4 Jumper Cables
+
+* Für den Grundlegenden Funktionstest haben wir den Lichtsensor mit einer LED auf dem Breadboard verbunden um zu erkennen, ob unser Konzept so funktioniert.
+* Aufbau des Breadboards:
+![Breadboard](assets\docs_images\Lightsensor_Aufbau.jpeg)
+
+* NodeRed:
+![NodeRed](assets\docs_images\NodeRed.jpeg)
+
+* Funtion Code:
+```js
+const payload = msg.payload
+const lightLv = payload.ANALOG.Illuminance
+
+node.warn(lightLv)
+
+const LightSwitch = lightLv > 20 ? {payload: 'ON'. topic: 'POWER'} : {payload: 'OFF'. topic: 'POWER'}
+return LightSwitch
+```
+
+* Integration der Lampe
