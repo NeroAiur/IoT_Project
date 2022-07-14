@@ -71,6 +71,8 @@ Aufgrund der Ausfälle unseres Raspberry Pi 5s haben wir die Entscheidung getrof
 > Mosquitto Port: 1883\
 > NodeRed Port: 1880\
 
+* Fehlende Zeit aufgrund von Problemen mit Pis usw sorgt dafür, dass wir nie wirklich dazu kamen sinnvoll an einer Aufgabe zu arbeiten, wir haben halt gut 12-16 Stunden weniger zur Verfügung gehabt aufgrund dieser Sachen.
+
 # Ziel 4: IOTStack installieren und einrichten
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
 

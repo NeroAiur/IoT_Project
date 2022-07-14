@@ -13,4 +13,9 @@
 
 # 13.07.2022
 * 10:40 integrating sensor to control the LED @Jonas @Janek
-* 11:30 due to reoccuring error with Rapsi, workaround with debian laptop @Marc
+* 11:30 due to reoccuring error # 14.07.2022
+* 8:30 light sensor + LED tests @Nils @Florian @Jonas @Janek @Sebastianwith Rapsi, workaround with debian laptop @Marc
+* 14:00 lightsensor/LED tests @Nils @Jonas @Sebastian
+
+# 14.07.2022
+* 8:30 light sensor + LED tests @Nils @Florian @Jonas @Janek @Sebastian

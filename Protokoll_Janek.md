@@ -18,3 +18,6 @@
 # 13.07.2022
 * 10:30 tasmota configuration and tests @Hanschmidt
 * 10:40 integrating sensor to control the LED @Jonas @Marc
+
+# 14.07.2022
+* 8:30 light sensor + LED tests @Nils @Florian @Jonas @Marc @Sebastian
