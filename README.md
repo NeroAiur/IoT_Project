@@ -175,3 +175,7 @@ return LightSwitch
 ```
 
 * Integration der Lampe:
+> Lampe wird angesteuert über entsprechende IP\
+> Ganz einfach im NodeRed hinzugefügt
+
+![NodeRed](assets\docs_images\NodeRed_Lampe.jpeg)
