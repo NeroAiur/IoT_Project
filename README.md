@@ -174,4 +174,4 @@ const LightSwitch = lightLv > 20 ? {payload: 'ON'. topic: 'POWER'} : {payload: '
 return LightSwitch
 ```
 
-* Integration der Lampe
+* Integration der Lampe:
