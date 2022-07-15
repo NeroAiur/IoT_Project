@@ -75,23 +75,16 @@ Aufgrund der Ausfälle unseres Raspberry Pi 5s haben wir die Entscheidung getrof
 [Link zum Tutorial](https://sensoriot.github.io&/IOTStack/Basic_setup)
 
 * Bestandteile:
-> [x] Grafana\
-> [x] Influxdb\
 > [x] Mosquitto\
 > [x] NodeRed\
-> [x] Portainer-CE
 
 * Ports:
-> 3000 - Grafana
->> username: admin\
->> password: admin
->>
-> 1880 - NodeRed\
-> 9000 - Portainer
->> username: \
->> password: \
+> 1880 - NodeRed
 
 ## Probleme
+* der IoTStack von SensorIOT ist ausschließlich für einen Raspberry Pi gedacht, da wir aber einen Debian Rechner genutzt haben, mussten Sachen händisch installiert werden.
+* Es wurde auch aufgrund des Zeitdruckes und daraus entstehenden Gründen der Effizienz nur das nötigste für unser Projekt installiert
+* Abseits davon haben wir Docker nicht für die Installation gemacht
 
 # Ziel 5: IoT-Grundlagen präsentieren und erklären können
 * [Link zur Präsentation](https://docs.google.com/presentation/d/1OA43oWYI0IdfKxGPRfhTF-xS5oXf_kllf4pKpVWIIzA/edit?usp=sharing)
@@ -125,10 +118,11 @@ Aufgrund der Ausfälle unseres Raspberry Pi 5s haben wir die Entscheidung getrof
 > anderes Profil notwendig:
 
 ## Lessons Learned
-* Anleitung war für uns basically useless, weil es für Linux gemacht war.
-> nach nichts arbeiten, was man nicht selbst gemacht/geprüft/durchgegangen ist.
+* die Anleitung war für uns vollkommen nutzlos, da wir keinen Linux Rechner zur Verfügung hatten und eben jene ausschließlich auf Linux optimiert wurde
+> dementsprechend mussten wir fürs erste vollends selbst durcharbeiten und mit ganz unterschiedlichen Tools und Workflows arbeiten, die teilweise auch ersteinmal recherchiert werden mussten
 
-* Murphys Gesetze sind wahr.
+* Alles was schieflaufen konnte, ist schiefgelaufen
+
 * Arbeitsaufteilung war an manchen Stellen leider nicht so gut
 > lag primär an der andauernden Fehlschläge und Sackgassen.
 
@@ -160,19 +154,9 @@ Stellen Sie Ihre Ergebnisse und Lernerfolge in einer Abschlusspräsentation vor
 * Aufbau des Breadboards:
 ![Breadboard](assets\docs_images\Lightsensor_Aufbau.jpeg)
 
-* NodeRed:
+* NodeRed Aufbau:
 ![NodeRed](assets\docs_images\NodeRed.jpeg)
-
-* Funtion Code:
-```js
-const payload = msg.payload
-const lightLv = payload.ANALOG.Illuminance
-
-node.warn(lightLv)
-
-const LightSwitch = lightLv > 20 ? {payload: 'ON'. topic: 'POWER'} : {payload: 'OFF'. topic: 'POWER'}
-return LightSwitch
-```
+> Code befindet sich in NodeRed.js
 
 * Integration der Lampe:
 > Lampe wird angesteuert über entsprechende IP\
